@@ -1,0 +1,21 @@
+#home{
+    background-color: #ffc107;
+    color: white;
+}
+.box{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5; 
+}
+
+
+@media (max-width: 768px) { 
+    .font{
+        font-size: 16px !important;
+    }
+    .font h2{
+        font-size: 25px !important;
+    }
+    .font a{
+        font-size: 15px !important;
+    }
+ }
