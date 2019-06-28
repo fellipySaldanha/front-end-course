@@ -1,0 +1,111 @@
+/*NAV*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    
+    height: 100%;
+}
+header{
+   background-image: url(../img/castelo.jpg);
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+   height: 100%;
+   position: relative;
+}
+header nav{
+    font-size: 20px;
+    padding: 0;
+    border-bottom: rgba(212, 205, 205, 0.4) solid 1px;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.header-banner {
+    font-family: 'Roboto' !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+    /*para posicionar um elemento centralizado*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-banner h1 {
+    font-family: 'Roboto' !important;
+}
+
+/*ABOUT*/
+
+@media(max-width: 1020px){
+    #c-accordion-about {
+        margin-top: 20px;
+    }
+}
+
+#about{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-image: url(../img/about.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#about .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #061324;
+    opacity: .9;
+}
+
+/*PROJETOS*/
+
+.projects {
+    position: relative;
+    margin-top: 20px;
+}
+
+/*depoimento*/
+
+.l-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.player {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+address:last-child {
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    color: #061324;
+}
+
+#depoiments {
+    background-color: #061324e1;
+}
